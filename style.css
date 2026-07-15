@@ -1,0 +1,170 @@
+ html {
+margin: 0px;
+padding: 0px;
+}
+
+body {
+ margin-left: auto;
+ margin-right: auto;
+width: 80%;
+}
+
+ #applejack{
+  background: #FFB6C1 url(./aplejackfon2.png);
+		color: #000; /*Цвет текста на странице*/
+		background-attachment: fixed; /* Фон страницы фиксируется */
+		background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+#glavnai{
+		background: #FFB6C1 url(./glavnai5.jpg);
+    color: #000; /*Цвет текста на странице*/
+		background-attachment: fixed; /* Фон страницы фиксируется */
+		background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#sparkle{
+		background: #FFB6C1 url(./sparkle.jpg);
+    color: #000; /*Цвет текста на странице*/
+		background-attachment: fixed; /* Фон страницы фиксируется */
+		background-repeat: no-repeat;
+    background-size: 100% 100%; /* Фоновый цвет и фоновый рисунок*/
+  }
+
+#pinki{
+  background: #FFB6C1 url(pinkifon2.png);
+  color: #000; /*Цвет текста на странице*/
+		background-attachment: fixed; /* Фон страницы фиксируется */
+		background-repeat: no-repeat;
+    background-size: 100% 100%; /* Фоновый цвет и фоновый рисунок*/
+}
+
+#rarit{
+  background: #FFB6C1 url(rarityfon2.png);
+  color: #000; /*Цвет текста на странице*/
+		background-attachment: fixed; /* Фон страницы фиксируется */
+		background-repeat: no-repeat;
+    background-size: 100% 100%; /* Фоновый цвет и фоновый рисунок*/
+}
+
+#fluttershy{
+  background: #FFB6C1 url(./flytershyfon2.png);
+  color: #000; /*Цвет текста на странице*/
+		background-attachment: fixed; /* Фон страницы фиксируется */
+		background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#dash{
+  background: #FFB6C1 url(./dashfon2.png);
+		color: #000; /*Цвет текста на странице*/
+		background-attachment: fixed; /* Фон страницы фиксируется */
+		background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#spike{
+  background: #FFB6C1 url(./spikefon3.jpg);
+		color: #000; /*Цвет текста на странице*/
+		background-attachment: fixed; /* Фон страницы фиксируется */
+		background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+p{
+    font-size: 22px;
+    font-family: "Comic Sans MS";
+}
+
+ol, ul, #vid{
+    font-size: 20px;
+    font-family: "Comic Sans MS";
+}
+
+h1, h2, h3{
+    font-family: "Comic Sans MS";
+}
+
+.polosa, .polosa1{
+    background-color: rgba(255, 255, 255, 0.7); /* белый полупрозрачный фон */
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px; /* скругленные углы */
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.polosa{
+  width: 60%;
+}
+
+.polosa1{
+  width: 80%;
+}
+
+.selki{
+    float: left;
+    margin-right: 15px;
+    padding-left: 0px;
+    position: fixed;
+}
+
+.fotoselki{
+  width: 80x;
+  height: 80px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.fotoselki:hover{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.fotovid ul {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+}
+
+.fotovid li{
+    text-align: center;
+}
+.iskarka1{
+  float: left;
+}
+
+.iskarka2{
+    float: right;
+}
+
+table.iksweb{
+	width: 75%;
+	border-collapse:collapse;
+	border-spacing:0;
+	height: auto;
+  margin: auto;
+  background-color: #FFE4E1;
+}
+
+table.iksweb,table.iksweb td, table.iksweb th {
+	border: 3px solid #4B0082;
+}
+
+table.iksweb td,table.iksweb th {
+	padding: 3px;
+	width: 30px;
+	height: 35px;
+}
+
+table.iksweb th {
+	background: #4e6982;
+	color: #fff; 
+	font-weight: normal;
+}
